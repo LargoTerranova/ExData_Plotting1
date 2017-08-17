@@ -2,7 +2,7 @@
 #Plot 3
 #######################################
 #Set Working Directory
-setwd("C:/Users/boband/Google Drive/DataScience/4_Explo/1_Week/wd/")
+setwd("")
 
 #Read in Data
 electro <- read.table("power.txt", header = TRUE, sep = ";", na.strings = "?", colClasses = c("character", "character", "numeric","numeric","numeric","numeric","numeric","numeric","numeric"))
